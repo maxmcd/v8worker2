@@ -33,10 +33,10 @@ if args.depot_tools_path:
 GN_ARGS = """
   is_component_build=false
   is_debug=false
-  libcpp_is_static=false
+  libcpp_is_static=true
   symbol_level=1
   treat_warnings_as_errors=false
-  use_custom_libcxx=false
+  use_custom_libcxx=true
   use_sysroot=false
   v8_deprecation_warnings=false
   v8_embedder_string="-v8worker2"
